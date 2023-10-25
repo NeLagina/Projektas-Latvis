@@ -54,7 +54,7 @@ def don(eventData):
             time.sleep(0.1)
 def alert(eventData):
     print("GAUTAS DONATIONAS ar kaskas tai lauk 10 sekundžiu")
-    time.sleep(0)
+    time.sleep(10)
     if eventData['type'] == "donation": 
         message = eventData['message'][0]
         remti.remetts(message,'message','from','amount')
