@@ -1,3 +1,3 @@
-# Projektas-Lenkas
+# Projektas-Latvis
 Lietuviškas TTS
 
